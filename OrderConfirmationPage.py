@@ -2,7 +2,7 @@ from .BasePage import BasePage
 from Data.ExcelLib import *
 
 
-class OrderConfirmationPage(BasePage):
+class OrderConfirmationPage(BasePag:
     OrderConfirmationPage_Objects = read_locators("OrderConfirmationPage")
 
     def click_order_details(self):
